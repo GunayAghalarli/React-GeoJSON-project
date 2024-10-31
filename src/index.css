@@ -1,0 +1,29 @@
+/* index.css or App.css */
+@import 'leaflet/dist/leaflet.css';
+
+/* Center the table */
+table {
+  margin: 0 auto;
+  width: 30rem;
+  border-collapse: collapse;
+  border: 1px solid black; /* Outer border */
+}
+
+/* Add table and cell borders */
+th, td {
+  border: 1px solid black; /* Cell borders */
+  padding: 0.5rem;
+}
+
+/* Define column widths to fit within the table width */
+table th:first-child, table td:first-child {
+  width: 10rem; /* 1st column */
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  width: 15rem; /* 2nd column */
+}
+
+table th:nth-child(3), table td:nth-child(3) {
+  width: 5rem; /* 3rd column */
+}

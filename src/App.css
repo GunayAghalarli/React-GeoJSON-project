@@ -1,0 +1,42 @@
+/* App.css or index.css */
+@import 'leaflet/dist/leaflet.css';
+
+
+/* Center the table */
+table {
+  margin: 0 auto;
+  width: 30rem;
+  border-collapse: collapse;
+}
+
+/* Add table and cell borders */
+th, td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+/* Define column widths */
+table th:first-child, table td:first-child {
+  width: 20rem;
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  width: 50rem;
+}
+
+table th:nth-child(3), table td:nth-child(3) {
+  width: 20rem;
+}
+
+/* Set specific heights for header and body */
+thead th {
+  height: 1rem;
+}
+
+tbody {
+  height: 25rem;
+}
+
+.spaced-button {
+  margin-bottom: 10px;
+}
